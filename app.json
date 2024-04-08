@@ -1,21 +1,51 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/apply/apply",
+    "pages/message/message",
+    "pages/found/found",
+    "pages/home/home"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationBarTitleText": "智慧校园",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/imgs/index.png",
+        "selectedIconPath": "/imgs/indexOne.png"
+      },
+      {
+        "pagePath": "pages/apply/apply",
+        "text": "应用",
+        "iconPath": "/imgs/apply.png",
+        "selectedIconPath": "/imgs/applyOne.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/imgs/message.png",
+        "selectedIconPath": "/imgs/messageOne.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发现",
+        "iconPath": "/imgs/found.png",
+        "selectedIconPath": "/imgs/foundOne.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "/imgs/home.png",
+        "selectedIconPath": "/imgs/homeOne.png"
+      }
+    ]
   },
   "style": "v2",
-  "renderer": "skyline",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
