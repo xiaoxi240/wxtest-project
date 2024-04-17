@@ -16,32 +16,32 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "/imgs/index.png",
-        "selectedIconPath": "/imgs/indexOne.png"
+        "iconPath": "/imgs/tabBar/index.png",
+        "selectedIconPath": "/imgs/tabBar/indexOne.png"
       },
       {
         "pagePath": "pages/apply/apply",
         "text": "应用",
-        "iconPath": "/imgs/apply.png",
-        "selectedIconPath": "/imgs/applyOne.png"
+        "iconPath": "/imgs/tabBar/apply.png",
+        "selectedIconPath": "/imgs/tabBar/applyOne.png"
       },
       {
         "pagePath": "pages/message/message",
         "text": "消息",
-        "iconPath": "/imgs/message.png",
-        "selectedIconPath": "/imgs/messageOne.png"
+        "iconPath": "/imgs/tabBar/message.png",
+        "selectedIconPath": "/imgs/tabBar/messageOne.png"
       },
       {
         "pagePath": "pages/found/found",
         "text": "发现",
-        "iconPath": "/imgs/found.png",
-        "selectedIconPath": "/imgs/foundOne.png"
+        "iconPath": "/imgs/tabBar/found.png",
+        "selectedIconPath": "/imgs/tabBar/foundOne.png"
       },
       {
         "pagePath": "pages/home/home",
         "text": "我的",
-        "iconPath": "/imgs/home.png",
-        "selectedIconPath": "/imgs/homeOne.png"
+        "iconPath": "/imgs/tabBar/home.png",
+        "selectedIconPath": "/imgs/tabBar/homeOne.png"
       }
     ]
   },
